@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Varsha SS — Portfolio</title>
+  <meta name="description" content="Portfolio of Varsha SS — Entry-level IT professional, 7th semester ECE student.">
+  <style>
+    :root{--bg:#0f1724;--card:#0b1320;--muted:#94a3b8;--accent:#7c3aed;--glass:rgba(255,255,255,0.04)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;color:#e6eef8;background:linear-gradient(180deg,#071029 0%,var(--bg) 100%);-webkit-font-smoothing:antialiased}
+    .container{max-width:980px;margin:36px auto;padding:24px}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:14px;flex:0 0 96px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:28px}
+    h1{margin:0;font-size:28px}
+    p.lead{color:var(--muted);margin:6px 0 0}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:22px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+    .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .skill{background:var(--glass);padding:6px 10px;border-radius:999px;font-size:13px;color:var(--muted)}
+    .projects{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:12px}
+    .proj{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    .proj h4{margin:0 0 6px;font-size:14px}
+    .proj p{margin:0;font-size:13px;color:var(--muted)}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600;background:linear-gradient(90deg,var(--accent),#06b6d4);color:white}
+    aside .contact{display:flex;flex-direction:column;gap:8px}
+    .meta{font-size:13px;color:var(--muted)}
+    footer{margin-top:26px;text-align:center;color:var(--muted);font-size:13px}
+
+    @media (max-width:880px){.grid{grid-template-columns:1fr} .projects{grid-template-columns:1fr} aside{order:2}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">VS</div>
+      <div>
+        <h1>Varsha SS — Entry-Level IT Professional</h1>
+        <p class="lead">ECE 7th semester student passionate about web development and software roles. Skilled in Java, Python, HTML, CSS. Experienced with frontend development and academic projects in automation and ML.</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <h2 style="margin:0 0 8px">Skills</h2>
+          <div class="skills">
+            <div class="skill">Java</div>
+            
+            <div class="skill">HTML / CSS</div>
+            <div class="skill">MATLAB</div>
+            <div class="skill">Embedded IoT (Arduino, HC-05)</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">Data Structures & Algorithms (Java)</div>
+            <div class="skill">Communication & Teamwork</div>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <h2 style="margin:0 0 8px">Selected Projects</h2>
+          <div class="projects">
+            <article class="proj">
+              <h4>Home Automation using Bluetooth</h4>
+              <p>Built a system with Arduino + HC-05 to control appliances via mobile app. Enabled wireless and hands-free automation.</p>
+            </article>
+
+            <article class="proj">
+              <h4>Home Automation using Gesture Control</h4>
+              <p>Used APDS9960 sensor for gesture-based device control. Eliminated manual switches and provided intuitive automation.</p>
+            </article>
+
+            <article class="proj">
+              <h4>Marine Border Crossing Monitoring</h4>
+              <p>Developed a wireless monitoring system with sensors and microcontrollers. Sent real-time alerts to authorities.</p>
+            </article>
+
+            <article class="proj">
+              <h4>Vehicle Detection using MATLAB</h4>
+              <p>Implemented YOLO and Haar Cascade algorithms with edge detection for real-time vehicle tracking.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <h2 style="margin:0 0 8px">Experience</h2>
+          <p><strong>Frontend Development Intern</strong> — Cognifyz Technology (Aug–Sep 2025)</p>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <h2 style="margin:0 0 8px">Certifications</h2>
+          <ul class="meta">
+            <li>Java Programming Fundamentals — Infosys Springboard</li>
+            <li>Certified in CSS (Basics) — HackerRank</li>
+            <li>TCS iON Career Edge: Young Professional</li>
+            <li>Internship on Python Programming — Adhoc Software, Coimbatore</li>
+            <li>Internship on Embedded System with IoT — NSIC, Chennai</li>
+            <li>Tata Group Data Analytics Job Simulation — Forage</li>
+          </ul>
+        </section>
+
+        <section class="card" style="margin-top:16px">
+          <h2 style="margin:0 0 8px">Resume</h2>
+          <p class="meta">Download a copy of my resume for more details.</p>
+          <p style="margin-top:10px"><a class="btn" href="docs/Varsha_SS__09.PDF" download="Varsha_Resume.PDF">Download Resume (PDF)</a></p>
+        </section>
+
+      </main>
+
+      <aside>
+        <div class="card">
+          <h3 style="margin:0 0 8px">Contact</h3>
+          <div class="contact">
+            <div class="meta"><strong>LinkedIn:</strong>
+    <a href="https://www.linkedin.com/in/varsha-sekar-465456295/" target="_blank" style="color:inherit; text-decoration:underline">
+      linkedin.com/in/varsha-sekar-465456295
+    </a>
+  </div>
+  <div class="meta"><strong>GitHub:</strong>
+    <a href="https://github.com/VarshaSekar88" target="_blank" style="color:inherit; text-decoration:underline">
+      github.com/VarshaSekar88
+    </a>
+  </div>
+  <div class="meta"><strong>HackerRank:</strong>
+    <a href="https://www.hackerrank.com/profile/varshaprethi2004" target="_blank" style="color:inherit; text-decoration:underline">
+      hackerrank.com/profile/varshaprethi2004
+    </a>
+  </div>
+            <div class="meta"><strong>Phone:</strong> 8870325188</div>
+            <div class="meta"><strong>Email:</strong> <a href="mailto:varshaprethi2004@gmail.com" style="color:inherit;text-decoration:underline">varshaprethi2004@gmail.com</a></div>
+            <div class="meta"><strong>Location:</strong> Tiruppur, Tamil Nadu, India</div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3 style="margin:0 0 8px">Education</h3>
+          <p class="meta"><strong>B.E. — Electronics & Communication Engineering</strong><br>Nandha Engineering College<br>7.55 CGPA (2022–Present)</p>
+          <p class="meta"><strong>HSC</strong> — Saradha Vidhyalaya (77.17%)</p>
+          <p class="meta"><strong>SSLC</strong> — Saradha Vidhyalaya (70.16%)</p>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h3 style="margin:0 0 8px">Languages</h3>
+          <p class="meta">English · Tamil · Malayalam · Hindi</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <p>© 2025 Varsha SS. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
